@@ -8,7 +8,7 @@
   <artifactId>jenkins-docker-example</artifactId>
   <version>1.0</version>
 
-  <name>my-app</name>
+  <name>jenkins-docker-example</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
