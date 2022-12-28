@@ -1,4 +1,4 @@
-FROM openjdk
-COPY --from=build /home/app/target/*.jar /
+FROM openjdk:8
 EXPOSE 8080
-ENTRYPOINT ["java","-jar","/my-app-1.0-SNAPSHOT.jar"]
+ADD target/jenkins-docker-example.jar jenkins-docker-example.jar
+ENTRYPOINT ["java","-jar","jenkins-docker-example.jar"
